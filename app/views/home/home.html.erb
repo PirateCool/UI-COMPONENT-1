@@ -1,17 +1,32 @@
 
 <%= render "home/components/card" %>
 <%= render "home/components/cards" %>
-<%= render "home/components/tabs" %>
+		<script>
+		function openTab(evt, cityName) {
+		    var i, tabcontent, tablinks;
+		    tabcontent = document.getElementsByClassName("tabcontent");
+		    for (i = 0; i < tabcontent.length; i++) {
+		        tabcontent[i].style.display = "none";
+		    }
+		    tablinks = document.getElementsByClassName("tablinks");
+		    for (i = 0; i < tablinks.length; i++) {
+		        tablinks[i].className = tablinks[i].className.replace(" active", "");
+		    }
+		    document.getElementById(cityName).style.display = "block";
+		    evt.currentTarget.className += " active";
+		}
+		</script>		     
+		<%= render "home/components/tabs" %>
 <%= render "home/components/buttons" %>
 
 
 
 <div align="center">
 	<h3>Dernier épisode de One Piece (episode 861)</h3>
-<iframe id="onepiece" frameborder="0" width="480" height="270"
-src="//www.dailymotion.com/embed/video/k2nRp07LYPZTsVsiUmI?info=0&mute=false
-"
-allowfullscreen ></iframe>
+		<iframe id="onepiece" frameborder="0" width="480" height="270" 
+		 src="//www.dailymotion.com/embed/video/k2nRp07LYPZTsVsiUmI?info=0&mute=false"
+		 allowfullscreen >	
+		</iframe>
 </div>
 
 

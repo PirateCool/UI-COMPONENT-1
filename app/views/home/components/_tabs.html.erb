@@ -1,20 +1,31 @@
-<div class="tabs" role="tablist">
-  <a class="tab active" href="#">
-    <h3>10</h3>
-    <p>Pirates</p>
-  </a>
-  <a class="tab" href="#">
-    <h3>921</h3>
-    <p>Chapitres</p>
-  </a>
-  <a class="tab" href="#">
-    <h3>1er</h3>
-    <p>des ventes</p>
-  </a>
-  <a class="tab" href="#">
-    <h3>1000</h3>
-    <p>barils de rhum & + </p>
-  </a>
+<div class="tabs-container">
+  <div class="tabs">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+      <li class="nav-item">
+        <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Equipage</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Tous les épisodes</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Infos</a>
+      </li>
+
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <h3>10</h3>
+            <p>Pirates</p></div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <h3>921</h3>
+            <p>Chapitres</p></div>
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <h3>1000</h3>
+            <p>barils de rhum & + </p></div>
+      </div>
+  </div>
+
 </div>
-
-
