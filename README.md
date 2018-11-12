@@ -1,24 +1,21 @@
-# README
+# UI COMPONENTS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Small UI Library for THP 
 
-Things you may want to cover:
+Include:
 
-* Ruby version
+* Card
 
-* System dependencies
+* Cards
 
-* Configuration
+* Avatars
 
-* Database creation
+* Navbar
 
-* Database initialization
+* Tabs (No JS)
 
-* How to run the test suite
+* Buttons
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+# https://piratecool.github.io/UI-COMPONENT-1/
