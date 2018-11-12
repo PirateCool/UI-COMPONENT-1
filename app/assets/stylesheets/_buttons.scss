@@ -1,0 +1,88 @@
+/* SUCCES BUTTON */
+
+.btn-green {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6AD58B;
+  transition: background 0.3s ease;
+}
+.btn-green:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
+
+/* INFO BUTTON */
+.btn-blue {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #359fdd;
+  transition: background 0.3s ease;
+}
+.btn-blue:hover {
+  opacity: 1;
+  background: #1175cc;
+  text-decoration: none;
+  color: white;
+}
+
+/* WARNING BUTTON */
+
+.btn-red {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #c52a42;
+  transition: background 0.3s ease;
+}
+.btn-red:hover {
+  opacity: 1;
+  background: #ed687c;
+  text-decoration: none;
+  color: white;
+}
+
+/* BLACK BUTTON */
+
+.btn-black {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #000000;
+  transition: background 0.3s ease;
+}
+.btn-black:hover {
+  opacity: 1;
+  background: #444444;
+  text-decoration: none;
+  color: white;
+}
+
+/* GREY BUTTON */
+
+.btn-grey {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #c4c4c4;
+  transition: background 0.3s ease;
+}
+.btn-grey:hover {
+  opacity: 1;
+  background: #a0a0a0;
+  text-decoration: none;
+  color: white;
+}
+
+.buttons-container {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
